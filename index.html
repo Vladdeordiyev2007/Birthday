@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="timer"></div>
+        <h1>Генератор пожеланий на день рождения Ангелины 🎉🎂✨🍰🥳</h1>
+        <div class="generator">
+            <button class="bubbly-button" id="button1">Сгенерировать <br> пожелание!</button>
+            <p class="output" id="output1"></p>
+            <button class="bubbly-button" id="button2">Сгенерировать <br> подарок!</button>
+            <div class="output" id="output2"></div>
+        </div>
+        <div class="Birthdaytext">
+            <p>Представляем подборку интересных, полезных и приятных подарков ко дню рождения, которые помогут вам порадовать любимых, родных, друзей или знакомых.</p>
+        </div>
+        <div class="calculator">
+        <h2>Калькулятор возраста</h2>
+        <label for="birthYear">Год рождения:</label>
+        <input type="number" id="birthYear" placeholder="Введите год рождения">
+        
+        <label for="futureYear">Будущий год:</label>
+        <input type="number" id="futureYear" placeholder="Введите будущий год">
+        
+        <button onclick="calculateAge()">Рассчитать возраст</button>
+        
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
